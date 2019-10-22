@@ -13,4 +13,4 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 
 # Anything in `/Content/RawContent` dir.
-/Content/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
+/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
