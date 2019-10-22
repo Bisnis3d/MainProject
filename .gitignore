@@ -9,9 +9,9 @@
 !/MainProject.uproject
 
 # Do not ignore source, config and plugins dirs.
-!/Content/Source/**
+!/Source/**
 !/Config/**
-!/Content/Plugins/**
+!/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
@@ -21,7 +21,7 @@
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
-!/Content/RawContent/**/*
+!/RawContent/**/*
 
 # OS/platform generated files.
 
