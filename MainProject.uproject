@@ -3,5 +3,20 @@
 	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
-	"Enterprise": true
+	"Enterprise": true,
+	"Plugins": [
+		{
+			"Name": "VRayForUnreal",
+			"Enabled": true
+		},
+		{
+			"Name": "VRayTeleportBP",
+			"Enabled": true
+		},
+		{
+			"Name": "Substance",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
+		}
+	]
 }
